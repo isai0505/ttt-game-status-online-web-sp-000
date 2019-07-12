@@ -42,7 +42,7 @@ end
 
 def winner(board)
   won?(board) == "X"
-  returns "X"
+  return "X"
   won?(board) == "O"
-  returns "O"
+  return "O"
 end
